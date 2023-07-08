@@ -14,7 +14,7 @@ body
     min-height: 100vh;
 }
 nav {
-    position: fixed;
+    position:absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -57,6 +57,29 @@ nav {
   nav ul li a:hover {
     color: #0f1112;
   }
+  .container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 70px;
+    background: #5a5560;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left-side{
+    position: relative;
+    background: #5a5560;
+    padding: 40px;
+}
+.container .right-side{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+
   
   
   
