@@ -161,4 +161,18 @@ nav ul li a:hover {
   position: relative;
   background: #fff;
   padding: 40px;
-}/*# sourceMappingURL=main.css.map */
+}
+.about{
+  margin-bottom: 50px;
+}
+.about:last-child{
+  margin-bottom: 0;
+}
+.title2{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  border-bottom: 1px solid #0f1112;
+}
+
+/*# sourceMappingURL=main.css.map */
