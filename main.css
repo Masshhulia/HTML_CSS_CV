@@ -174,5 +174,19 @@ nav ul li a:hover {
   font-size: 18px;
   border-bottom: 1px solid #0f1112;
 }
+.about li{
+  list-style: none;
+}
+.about ul li .icon{
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+  display: inline-block;
+  width: 30px;
+  font-size: 14px;
+  color: #0f1112;
+  font-weight: 600;
+}
 
 /*# sourceMappingURL=main.css.map */
