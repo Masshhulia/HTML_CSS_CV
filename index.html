@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" type="text/css" href="main.css">
     <title>CV</title>
 </head>
@@ -14,7 +14,7 @@
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#code-example">Code Example</a></li>
+                <li><a href="#code">Code Example</a></li>
             </ul>
         </nav>
     </header>
@@ -24,7 +24,7 @@
         <div class="left-side">
             <div class="profileText">
                 <div class="imgBx">
-                    <img src="img.jpg">
+                    <img src = "img.jpg" alt ="Photo">
                 </div>
                 <h2>Maria Basharimova<br><span>Junior Java Developer</span></h2>
             </div>
@@ -126,8 +126,8 @@
             </section> 
             </div>
             <div class="about">
-              <section id="code-example">
-                <div class="title2">Code example</div>
+              <section id ="code">
+                <h2 class="title2">Code example</h2>
                   <pre class="codee">
                     <code>
                       <br>// Example program in Java to calculate the factorial of a number
@@ -137,7 +137,7 @@
                               int number = 5;
                               int factorial = 1;
                               
-                              for (int i = 1; i <= number; i++) {
+                              for (int i = 1; i &lt;number; i++) {
                                   factorial *= i;
                               }
                               System.out.println("The factorial of " + number + " is: " + factorial);
@@ -149,8 +149,14 @@
               </div>
         </div>        
         </div>
-        </div>            
-        </div>
     </main>
+    <footer>
+        <div class="footer-content">
+            <div class="github-link">
+                <a href="https://github.com/Masshhulia">GitHub</a>
+            </div>
+            <div class="year">2023</div>
+        </div>
+    </footer>
 </body>
 </html>
