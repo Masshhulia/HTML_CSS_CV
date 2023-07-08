@@ -99,7 +99,7 @@ nav {
 .profileText h2{
     color: #fff;
     font-size: 1.5em;
-    margin-top: 20 px;
+    margin-top: 20px;
     text-align: center;
     font-weight: 600;
     line-height: 1.4em;
@@ -180,4 +180,32 @@ nav {
     font-size: 16px;
     font-weight: 550;
 }
-
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: #5a5560;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .github-link a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .year {
+    color: #fff;
+  }
+  
