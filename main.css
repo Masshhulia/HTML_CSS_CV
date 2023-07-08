@@ -25,6 +25,16 @@ nav {
   text-align: center;
 }
 
+h1 {
+  position: fixed;
+  text-align: left;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
 nav ul {
   list-style: none;
   display: inline-block;
